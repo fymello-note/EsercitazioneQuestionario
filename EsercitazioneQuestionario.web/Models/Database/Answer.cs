@@ -12,18 +12,14 @@ namespace EsercitazioneQuestionario.web.Models.Database
     using System;
     using System.Collections.Generic;
     
-    public partial class Question
+    public partial class Answer
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Question()
-        {
-            this.Answer = new HashSet<Answer>();
-        }
-    
+        public int AnswerId { get; set; }
         public short QuestionId { get; set; }
-        public string Text { get; set; }
+        public int UserId { get; set; }
+        public bool AnswerValue { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Answer> Answer { get; set; }
+        public virtual Question Question { get; set; }
+        public virtual User User { get; set; }
     }
 }

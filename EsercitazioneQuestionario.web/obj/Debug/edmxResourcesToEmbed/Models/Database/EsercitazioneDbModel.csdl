@@ -6,6 +6,7 @@
     </Key>
     <Property Name="QuestionId" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Answer" Relationship="Models.Database.FK__Answer__Question__5CD6CB2B" FromRole="Question" ToRole="Answer" />
   </EntityType>
   <EntityType Name="User">
     <Key>
@@ -19,9 +20,54 @@
     <Property Name="Flag_Form" Type="Boolean" Nullable="false" />
     <Property Name="CreationDate" Type="DateTime" Nullable="false" Precision="3" />
     <Property Name="CompileDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Answer" Relationship="Models.Database.FK__Answer__UserId__5DCAEF64" FromRole="User" ToRole="Answer" />
   </EntityType>
   <EntityContainer Name="EsercitazioneDbContext" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Question" EntityType="Self.Question" />
     <EntitySet Name="User" EntityType="Self.User" />
+    <EntitySet Name="Answer" EntityType="Models.Database.Answer" />
+    <AssociationSet Name="FK__Answer__Question__5CD6CB2B" Association="Models.Database.FK__Answer__Question__5CD6CB2B">
+      <End Role="Question" EntitySet="Question" />
+      <End Role="Answer" EntitySet="Answer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Answer__UserId__5DCAEF64" Association="Models.Database.FK__Answer__UserId__5DCAEF64">
+      <End Role="User" EntitySet="User" />
+      <End Role="Answer" EntitySet="Answer" />
+    </AssociationSet>
   </EntityContainer>
+  <EntityType Name="Answer">
+    <Key>
+      <PropertyRef Name="AnswerId" />
+    </Key>
+    <Property Name="AnswerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="QuestionId" Type="Int16" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="AnswerValue" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Question" Relationship="Models.Database.FK__Answer__Question__5CD6CB2B" FromRole="Answer" ToRole="Question" />
+    <NavigationProperty Name="User" Relationship="Models.Database.FK__Answer__UserId__5DCAEF64" FromRole="Answer" ToRole="User" />
+  </EntityType>
+  <Association Name="FK__Answer__Question__5CD6CB2B">
+    <End Type="Models.Database.Question" Role="Question" Multiplicity="1" />
+    <End Type="Models.Database.Answer" Role="Answer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Question">
+        <PropertyRef Name="QuestionId" />
+      </Principal>
+      <Dependent Role="Answer">
+        <PropertyRef Name="QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Answer__UserId__5DCAEF64">
+    <End Type="Models.Database.User" Role="User" Multiplicity="1" />
+    <End Type="Models.Database.Answer" Role="Answer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Answer">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema>

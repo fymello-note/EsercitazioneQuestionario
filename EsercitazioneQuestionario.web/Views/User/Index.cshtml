@@ -1,0 +1,14 @@
+﻿<main>
+    @if (User.Identity.IsAuthenticated)
+    {
+        using (Html.BeginForm("Logout", "User", FormMethod.Post))
+        {
+            <button type="submit">Elllt</button>
+        }
+    }
+    else
+    {
+        @Html.ActionLink("Login", "Login", "Home", new {})
+    }
+</main>
+

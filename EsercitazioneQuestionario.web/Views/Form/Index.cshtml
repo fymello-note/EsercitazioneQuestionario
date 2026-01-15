@@ -1,5 +1,19 @@
 ﻿@model EsercitazioneQuestionario.web.Models.Question.FormViewModel
 
+@{ 
+    string idForTrue = "";
+    string idForFalse = "";
+
+    var radioAttribute = new Dictionary<string, object>();
+    radioAttribute.Add("class", "form-check-input");
+
+    if (Model.FlagForm)
+    {
+        radioAttribute.Add("disabled", default(string));
+    }
+}
+
+
 @if (Model.Questions.Count == 0)
 {
     <h1>Non è presente alcuna domanda al momento.</h1>
@@ -9,23 +23,33 @@
         <ol class="list-group list-group-numbered">
             @for (int i = 0; i < Model.Questions.Count; i++)
             {
-                string idForTrue = $"answer{i}True";
-                string idForFalse = $"answer{i}False";
+                idForTrue = $"answer{i}True";
+                idForFalse = $"answer{i}False";
+
+                radioAttribute["id"] = idForTrue;
+
                 <li class="list-group-item">
                     <p>@Model.Questions[i].Text</p>
                     @Html.HiddenFor(m => m.Questions[i].Text)
+                    @Html.HiddenFor(m => m.Questions[i].QuestionId)
 
-                    <label for="@(idForTrue)" class="me-2">
-                        @Html.RadioButtonFor(m => m.Questions[i].Answer, true, new { id = idForTrue}) Sì
-                    </label>
-                    <label for="@(idForFalse)">
-                        @Html.RadioButtonFor(m => m.Questions[i].Answer, false, new { id = idForFalse }) No
-                    </label>
+                        <label for="@(idForTrue)" class="me-2">
+                            @Html.RadioButtonFor(m => m.Questions[i].Answer, true, radioAttribute) Sì
+                        </label>
+                    @{radioAttribute["id"] = idForFalse;}
+                        <label for="@(idForFalse)">
+                            @Html.RadioButtonFor(m => m.Questions[i].Answer, false, radioAttribute) No
+                        </label>
+                        <div>
+                            @Html.ValidationMessageFor(m => m.Questions[i].Answer, "", new { @class = "text-danger" })
+                        </div>
+                    
                 </li>
             }
-        </ol>
+                </ol>
     </div>
-
-    <button type="submit" class="btn btn-primary">Invia</button>
+    @if (!Model.FlagForm) {
+        <button type="submit" class="btn btn-primary">Invia</button>
+    }
 </form>
 

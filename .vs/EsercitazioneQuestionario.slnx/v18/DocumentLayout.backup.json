@@ -3,40 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|c:\\users\\for it\\code\\esercitazionequestionario\\esercitazionequestionario.web\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|c:\\users\\for it\\code\\esercitazionequestionario\\esercitazionequestionario.web\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|c:\\users\\for it\\code\\esercitazionequestionario\\esercitazionequestionario.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|c:\\users\\for it\\code\\esercitazionequestionario\\esercitazionequestionario.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|c:\\users\\for it\\code\\esercitazionequestionario\\esercitazionequestionario.web\\services\\constracts\\ianswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\services\\constracts\\ianswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\esercitazionequestionario.web\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\esercitazionequestionario.web\\services\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\services\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\esercitazionequestionario.web\\models\\question\\formviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\models\\question\\formviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\esercitazionequestionario.web\\views\\form\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\views\\form\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\esercitazionequestionario.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\esercitazionequestionario.web\\models\\question\\questionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\models\\question\\questionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\esercitazionequestionario.web\\services\\constracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\services\\constracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\esercitazionequestionario.web\\models\\form\\formviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\models\\form\\formviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\esercitazionequestionario.web\\services\\constracts\\iquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\services\\constracts\\iquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\esercitazionequestionario.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\esercitazionequestionario.web\\services\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\services\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\esercitazionequestionario.web\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\esercitazionequestionario.web\\services\\answerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\services\\answerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\esercitazionequestionario.web\\views\\form\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\views\\form\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\esercitazionequestionario.web\\models\\form\\questionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A09121-DB68-493B-9F78-720718D8B5FC}|EsercitazioneQuestionario.web\\EsercitazioneQuestionario.web.csproj|solutionrelative:esercitazionequestionario.web\\models\\form\\questionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,8 +62,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "EsercitazioneQuestionario.web\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "EsercitazioneQuestionario.web\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T14:25:15.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EsercitazioneQuestionario.web\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EsercitazioneQuestionario.web\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T13:39:21.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -59,93 +105,88 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FormViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Models\\Question\\FormViewModel.cs",
-              "RelativeDocumentMoniker": "EsercitazioneQuestionario.web\\Models\\Question\\FormViewModel.cs",
-              "ToolTip": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Models\\Question\\FormViewModel.cs",
-              "RelativeToolTip": "EsercitazioneQuestionario.web\\Models\\Question\\FormViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T15:59:41.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Web.config",
               "RelativeDocumentMoniker": "EsercitazioneQuestionario.web\\Web.config",
               "ToolTip": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Web.config",
               "RelativeToolTip": "EsercitazioneQuestionario.web\\Web.config",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEEAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-01-14T15:48:39.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "EsercitazioneQuestionario.web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "EsercitazioneQuestionario.web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAB2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T14:28:45.195Z",
+              "WhenOpened": "2026-01-15T13:37:30.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "IAnswerService.cs",
+              "DocumentMoniker": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Services\\Constracts\\IAnswerService.cs",
+              "RelativeDocumentMoniker": "EsercitazioneQuestionario.web\\Services\\Constracts\\IAnswerService.cs",
+              "ToolTip": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Services\\Constracts\\IAnswerService.cs",
+              "RelativeToolTip": "EsercitazioneQuestionario.web\\Services\\Constracts\\IAnswerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T10:59:51.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QuestionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Models\\Form\\QuestionViewModel.cs",
+              "RelativeDocumentMoniker": "EsercitazioneQuestionario.web\\Models\\Form\\QuestionViewModel.cs",
+              "ToolTip": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Models\\Form\\QuestionViewModel.cs",
+              "RelativeToolTip": "EsercitazioneQuestionario.web\\Models\\Form\\QuestionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T10:59:04.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Views\\Form\\Index.cshtml",
               "RelativeDocumentMoniker": "EsercitazioneQuestionario.web\\Views\\Form\\Index.cshtml",
               "ToolTip": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Views\\Form\\Index.cshtml",
               "RelativeToolTip": "EsercitazioneQuestionario.web\\Views\\Form\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T14:28:38.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T10:37:38.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "FormController.cs",
               "DocumentMoniker": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Controllers\\FormController.cs",
               "RelativeDocumentMoniker": "EsercitazioneQuestionario.web\\Controllers\\FormController.cs",
               "ToolTip": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Controllers\\FormController.cs",
               "RelativeToolTip": "EsercitazioneQuestionario.web\\Controllers\\FormController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwCUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T14:24:48.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QuestionService.cs",
-              "DocumentMoniker": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Services\\QuestionService.cs",
-              "RelativeDocumentMoniker": "EsercitazioneQuestionario.web\\Services\\QuestionService.cs",
-              "ToolTip": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Services\\QuestionService.cs",
-              "RelativeToolTip": "EsercitazioneQuestionario.web\\Services\\QuestionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T14:15:39.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T10:00:54.007Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "QuestionViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Models\\Question\\QuestionViewModel.cs",
-              "RelativeDocumentMoniker": "EsercitazioneQuestionario.web\\Models\\Question\\QuestionViewModel.cs",
-              "ToolTip": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Models\\Question\\QuestionViewModel.cs",
-              "RelativeToolTip": "EsercitazioneQuestionario.web\\Models\\Question\\QuestionViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Services\\Constracts\\IUserService.cs",
+              "RelativeDocumentMoniker": "EsercitazioneQuestionario.web\\Services\\Constracts\\IUserService.cs",
+              "ToolTip": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Services\\Constracts\\IUserService.cs",
+              "RelativeToolTip": "EsercitazioneQuestionario.web\\Services\\Constracts\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T13:58:25.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T09:50:44.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Models\\Form\\FormViewModel.cs",
+              "RelativeDocumentMoniker": "EsercitazioneQuestionario.web\\Models\\Form\\FormViewModel.cs",
+              "ToolTip": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Models\\Form\\FormViewModel.cs",
+              "RelativeToolTip": "EsercitazioneQuestionario.web\\Models\\Form\\FormViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T09:44:07.746Z"
             },
             {
               "$type": "Document",
@@ -155,23 +196,45 @@
               "RelativeDocumentMoniker": "EsercitazioneQuestionario.web\\Services\\Constracts\\IQuestionService.cs",
               "ToolTip": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Services\\Constracts\\IQuestionService.cs",
               "RelativeToolTip": "EsercitazioneQuestionario.web\\Services\\Constracts\\IQuestionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T13:54:46.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T09:33:55.269Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Services\\Constracts\\IUserService.cs",
-              "RelativeDocumentMoniker": "EsercitazioneQuestionario.web\\Services\\Constracts\\IUserService.cs",
-              "ToolTip": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Services\\Constracts\\IUserService.cs",
-              "RelativeToolTip": "EsercitazioneQuestionario.web\\Services\\Constracts\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "QuestionService.cs",
+              "DocumentMoniker": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Services\\QuestionService.cs",
+              "RelativeDocumentMoniker": "EsercitazioneQuestionario.web\\Services\\QuestionService.cs",
+              "ToolTip": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Services\\QuestionService.cs",
+              "RelativeToolTip": "EsercitazioneQuestionario.web\\Services\\QuestionService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T13:53:37.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T09:33:52.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AnswerService.cs",
+              "DocumentMoniker": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Services\\AnswerService.cs",
+              "RelativeDocumentMoniker": "EsercitazioneQuestionario.web\\Services\\AnswerService.cs",
+              "ToolTip": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Services\\AnswerService.cs",
+              "RelativeToolTip": "EsercitazioneQuestionario.web\\Services\\AnswerService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T09:33:23.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "EsercitazioneQuestionario.web\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\For IT\\code\\EsercitazioneQuestionario\\EsercitazioneQuestionario.web\\Services\\UserService.cs",
+              "RelativeToolTip": "EsercitazioneQuestionario.web\\Services\\UserService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T09:23:59.173Z"
             }
           ]
         }

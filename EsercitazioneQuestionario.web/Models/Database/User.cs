@@ -14,6 +14,12 @@ namespace EsercitazioneQuestionario.web.Models.Database
     
     public partial class User
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public User()
+        {
+            this.Answer = new HashSet<Answer>();
+        }
+    
         public int UserId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -22,5 +28,8 @@ namespace EsercitazioneQuestionario.web.Models.Database
         public bool Flag_Form { get; set; }
         public System.DateTime CreationDate { get; set; }
         public Nullable<System.DateTime> CompileDate { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Answer> Answer { get; set; }
     }
 }

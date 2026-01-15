@@ -6,8 +6,11 @@
     <edmx:Diagrams>
       <Diagram DiagramId="b406711e94d94cbd88563797b6615d09" Name="Diagram1">
         <EntityTypeShape EntityType="Models.Database.Question" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Models.Database.User" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
-      </Diagram>
+        <EntityTypeShape EntityType="Models.Database.User" Width="1.5" PointX="8.25" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Database.Answer" Width="1.5" PointX="4.375" PointY="0.5" />
+        <AssociationConnector Association="Models.Database.FK__Answer__Question__5CD6CB2B" />
+        <AssociationConnector Association="Models.Database.FK__Answer__UserId__5DCAEF64" />
+        </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
 </edmx:Edmx>

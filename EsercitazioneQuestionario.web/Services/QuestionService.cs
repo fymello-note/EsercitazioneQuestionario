@@ -12,13 +12,15 @@ namespace EsercitazioneQuestionario.web.Services
 {
     public class QuestionService : IQuestionService
     {
-        public async Task<List<QuestionViewModel>> GetQuestions()
+        public async Task<List<QuestionViewModel>> GetQuestions(int userId)
         {
             using(var db = new EsercitazioneDbContext()){
                 return await db.Question.Select(q => new QuestionViewModel
                 {
                     QuestionId = q.QuestionId,
-                    Text = q.Text
+                    Text = q.Text,
+                    Answer = db.Answer.Where(ab => ab.UserId == userId &&  ab.QuestionId == q.QuestionId)
+                                .Select(a => (bool?)a.AnswerValue).FirstOrDefault()
                 }).ToListAsync();
             }
         }

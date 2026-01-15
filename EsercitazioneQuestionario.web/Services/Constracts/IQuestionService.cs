@@ -9,6 +9,6 @@ namespace EsercitazioneQuestionario.web.Services.Constracts
 {
     public interface IQuestionService
     {
-        Task<List<QuestionViewModel>> GetQuestions();
+        Task<List<QuestionViewModel>> GetQuestions(int userId);
     }
 }

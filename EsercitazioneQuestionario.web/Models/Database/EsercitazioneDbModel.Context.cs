@@ -27,5 +27,6 @@ namespace EsercitazioneQuestionario.web.Models.Database
     
         public virtual DbSet<Question> Question { get; set; }
         public virtual DbSet<User> User { get; set; }
+        public virtual DbSet<Answer> Answer { get; set; }
     }
 }

@@ -160,6 +160,7 @@
     </Compile>
     <Compile Include="Models\Form\FormViewModel.cs" />
     <Compile Include="Models\Form\QuestionViewModel.cs" />
+    <Compile Include="Models\User\UserLoginModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AnswerService.cs" />
     <Compile Include="Services\Constracts\IQuestionService.cs" />

@@ -1,4 +1,5 @@
 ﻿using EsercitazioneQuestionario.web.Models.Question;
+using EsercitazioneQuestionario.web.Models.User;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,5 +13,9 @@ namespace EsercitazioneQuestionario.web.Services.Constracts
         Task SetCompile(int UserId);
 
         Task<FormViewModel> GetFlag(int UserId);
+
+        Task<bool> CheckUserPassword(UserLoginModel user);
+
+        Task<int> Pippo(string username);
     }
 }

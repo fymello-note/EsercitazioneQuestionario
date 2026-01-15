@@ -1,4 +1,16 @@
-﻿@using (Html.BeginForm("Login", "User", FormMethod.Post))
-{
+﻿@model EsercitazioneQuestionario.web.Models.User.UserLoginModel
 
+@using (Html.BeginForm("Login", "User", FormMethod.Post))
+{
+    <div>
+        @Html.LabelFor(u => u.Username)
+        @Html.TextBoxFor(u => u.Username, new { @class = "form-control" })
+        @Html.ValidationMessageFor(u => u.Username, "", new { @class = "text-danger"})
+    </div>    
+    <div>
+        @Html.LabelFor(u => u.Password)
+        @Html.TextBoxFor(u => u.Password, new { @class = "form-control" })
+        @Html.ValidationMessageFor(u => u.Password, "", new { @class = "text-danger"})
+    </div>    
+    <button type="submit" class="btn btn-primary">submit</button>
 }

@@ -29,8 +29,9 @@ namespace EsercitazioneQuestionario.web.Controllers
         [Authorize]
         public async Task<ActionResult> Index()
         {
-            FormViewModel form = await _userService.GetFlag(1);
-            form.Questions = await _questionService.GetQuestions(1);
+            int UserId = await _userService.Pippo(User.Identity.Name);
+            FormViewModel form = await _userService.GetFlag(UserId);
+            form.Questions = await _questionService.GetQuestions(UserId);
 
             return View(form);
         }
@@ -41,7 +42,8 @@ namespace EsercitazioneQuestionario.web.Controllers
         {
             if (ModelState.IsValid)
             {
-                await _answerService.AddAnswer(1, form);
+                int UserId = await _userService.Pippo(User.Identity.Name);
+                await _answerService.AddAnswer(UserId, form);
                 return RedirectToAction("Index", "Home");
             }
             return View(form);

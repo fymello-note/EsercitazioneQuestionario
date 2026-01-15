@@ -1,5 +1,6 @@
 ﻿using EsercitazioneQuestionario.web.Models.Database;
 using EsercitazioneQuestionario.web.Models.Question;
+using EsercitazioneQuestionario.web.Models.User;
 using EsercitazioneQuestionario.web.Services.Constracts;
 using System;
 using System.Collections.Generic;
@@ -12,15 +13,23 @@ namespace EsercitazioneQuestionario.web.Services
 {
     public class UserService : IUserService
     {
+        public async Task<bool> CheckUserPassword(UserLoginModel user)
+        {
+            using (var db = new EsercitazioneDbContext())
+            {
+                return await db.User.AnyAsync(u => u.UserName == user.Username && u.Password == user.Password);
+            }
+        }
+
         public async Task<FormViewModel> GetFlag(int UserId)
         {
             using (var db = new EsercitazioneDbContext())
             {
-                return await db.User.Select(u => new FormViewModel
+                return await db.User.Where(u => u.UserId == UserId).Select(u => new FormViewModel
                 {
                     FlagForm = u.Flag_Form,
                     UserId = u.UserId
-                }).FirstOrDefaultAsync(u => u.UserId == UserId);
+                }).FirstOrDefaultAsync();
             }
         }
 
@@ -35,6 +44,14 @@ namespace EsercitazioneQuestionario.web.Services
 
                     await db.SaveChangesAsync();
                 }
+            }
+        }
+
+        public async Task<int> Pippo(string username)
+        {
+            using(var db = new EsercitazioneDbContext())
+            {
+                return await db.User.Where(u => u.UserName == username).Select(u => u.UserId).FirstAsync();
             }
         }
     }

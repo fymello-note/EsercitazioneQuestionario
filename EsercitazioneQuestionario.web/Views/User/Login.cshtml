@@ -12,5 +12,6 @@
         @Html.TextBoxFor(u => u.Password, new { @class = "form-control" })
         @Html.ValidationMessageFor(u => u.Password, "", new { @class = "text-danger"})
     </div>    
-    <button type="submit" class="btn btn-primary">submit</button>
+    <button type="submit" class="btn btn-primary mt-1">submit</button>
 }
+@Html.ActionLink("Crea un'account", "Register", "User", new { area = "" }, new { @class = "btn btn-secondary btn-sm mt-1" })

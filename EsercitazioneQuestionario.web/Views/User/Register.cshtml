@@ -1,0 +1,27 @@
+﻿@model EsercitazioneQuestionario.web.Models.User.UserCreationModel
+
+@using (Html.BeginForm("Register", "User", FormMethod.Post))
+{
+    <div>
+        @Html.LabelFor(u => u.FirstName, "Nome ")
+        @Html.TextBoxFor(u => u.FirstName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(u => u.FirstName, "", new { @class = "text-danger"})
+    </div>    
+    <div>
+        @Html.LabelFor(u => u.LastName, "Cognome ")
+        @Html.TextBoxFor(u => u.LastName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(u => u.LastName, "", new { @class = "text-danger"})
+    </div>    
+    <div>
+        @Html.LabelFor(u => u.UserName)
+        @Html.TextBoxFor(u => u.UserName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(u => u.UserName, "", new { @class = "text-danger"})
+    </div>    
+    <div>
+        @Html.LabelFor(u => u.Password)
+        @Html.TextBoxFor(u => u.Password, new { @class = "form-control" })
+        @Html.ValidationMessageFor(u => u.Password, "", new { @class = "text-danger"})
+    </div>    
+    <button type="submit" class="btn btn-primary mt-1">submit</button>
+}
+@Html.ActionLink("Login", "Login", "User", new { area = "" }, new { @class = "btn btn-secondary btn-sm mt-1" })

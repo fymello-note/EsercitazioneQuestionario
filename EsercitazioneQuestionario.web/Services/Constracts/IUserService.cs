@@ -17,5 +17,7 @@ namespace EsercitazioneQuestionario.web.Services.Constracts
         Task<bool> CheckUserPassword(UserLoginModel user);
 
         Task<int> Pippo(string username);
+
+        Task CreateUser(UserCreationModel user);
     }
 }

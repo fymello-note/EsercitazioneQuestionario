@@ -3,6 +3,8 @@ using EsercitazioneQuestionario.web.Services;
 using EsercitazioneQuestionario.web.Services.Constracts;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity.Core;
+using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
@@ -32,6 +34,34 @@ namespace EsercitazioneQuestionario.web.Controllers
         public ActionResult Login()
         {
             return View();
+        }
+
+        [HttpGet]
+        public ActionResult Register()
+        {
+            return View();
+        }
+        
+        [HttpPost]
+        public async Task<ActionResult> Register(UserCreationModel user)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    await userService.CreateUser(user);
+
+                    FormsAuthentication.SetAuthCookie(user.UserName, false);
+
+                    return RedirectToAction("Index", "Home");
+                }
+                catch (DbUpdateException ex)
+                {
+                    ModelState.AddModelError("UserName", "Questio username è già in uso");
+                }
+
+            }
+            return View(user);
         }
 
         [HttpPost]

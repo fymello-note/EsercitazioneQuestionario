@@ -54,5 +54,21 @@ namespace EsercitazioneQuestionario.web.Services
                 return await db.User.Where(u => u.UserName == username).Select(u => u.UserId).FirstAsync();
             }
         }
+
+        public async Task CreateUser(UserCreationModel user)
+        {
+            using (var db = new EsercitazioneDbContext())
+            {
+                db.User.Add(new User
+                {
+                    UserName = user.UserName,
+                    Password = user.Password,
+                    FirstName = user.FirstName,
+                    LastName = user.LastName
+                });
+
+                await db.SaveChangesAsync();
+            }
+        }
     }
 }

@@ -1,6 +1,8 @@
 .vs
 EsercitazioneQuestionario.web/obj
 EsercitazioneQuestionario.web/bin
+EsercitazioneQuestionario.web/Scripts
+EsercitazioneQuestionario.web/Content
 packages
 
 *.user
